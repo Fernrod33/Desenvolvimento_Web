@@ -1,0 +1,17 @@
+html {
+    height: 100vh;
+    background-color: crimson;
+}
+
+#container {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }

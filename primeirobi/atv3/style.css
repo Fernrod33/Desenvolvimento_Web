@@ -1,0 +1,58 @@
+body {
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/15187163-fundo-de-site-moderno-futurista-de-conexao-de-mapa-do-mundo-ou-de-pagina-de-capa-para-conceito-de-tecnologia-e-financas-e-empresa-futura-de-educacao-vetor.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    text-decoration: none; color:rgb(255, 255, 255);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    flex: 50%;
+    border: 2px solid black;
+    justify-items: center;
+    align-items: center;
+}
+
+aside {
+    flex: 20%;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    padding-top: 325px;
+    padding-bottom: 325px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
