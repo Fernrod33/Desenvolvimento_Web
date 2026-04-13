@@ -1,0 +1,78 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fundo {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+.incluirTarefa {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  margin: 20px auto;
+}
+
+.incluirTarefa input {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.incluirTarefa button {
+  flex: 0 0 auto;
+}
+
+.listaTarefas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  form,
+  .incluirTarefa,
+  .listaTarefas {
+    width: 90vw;
+  }
+}

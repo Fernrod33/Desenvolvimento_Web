@@ -1,0 +1,15 @@
+.titulo-principal {
+    color: red;
+}
+
+.verde {
+    color: green;
+}
+
+#container {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
