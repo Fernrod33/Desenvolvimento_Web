@@ -15,6 +15,12 @@ export default function App() {
     setNovaTarefa('')
   }
 
+  const removerTarefa = (indice) => {
+    setTarefas((tarefasAnteriores) => 
+      tarefasAnteriores.filter((_, i) => i !== indice)
+    )
+  }
+
   return (
     <>
       <div className="fundo">
@@ -39,7 +45,7 @@ export default function App() {
                   const tarefaId = `tarefa-${indice}`
 
                   return (
-                    <li key={tarefaId}>
+                    <li key={tarefaId} onClick={() => removerTarefa(indice)}>
                       <input type="checkbox" id={tarefaId} />
                       <label htmlFor={tarefaId}>{tarefa}</label>
                     </li>
